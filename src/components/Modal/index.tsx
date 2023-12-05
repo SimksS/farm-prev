@@ -1,4 +1,3 @@
-import { Badges } from "@/components/Badges";
 import ImageComponent from "@/components/ImageComponent";
 
 interface IProps {
