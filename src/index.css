@@ -1,0 +1,274 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Galano Grotesque Alt';
+    src: url('assets/fonts/galamo-grotesque-alt/GalanoGrotesqueAlt-Black.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Galano Grotesque Alt';
+    src: url('assets/fonts/galamo-grotesque-alt/GalanoGrotesqueAlt-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Galano Grotesque Alt Black It';
+    src: url('assets/fonts/galamo-grotesque-alt/GalanoGrotesqueAlt-BlackItalic.woff2') format('woff2');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Galano Grotesque Alt';
+    src: url('assets/fonts/galamo-grotesque-alt/GalanoGrotesqueAlt-Italic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Galano Grotesque Alt ExLight It';
+    src: url('assets/fonts/galamo-grotesque-alt/GalanoGrotesqueAlt-ExtraLightItalic.woff2') format('woff2');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Galano Grotesque Alt Heavy It';
+    src: url('assets/fonts/galamo-grotesque-alt/GalanoGrotesqueAlt-HeavyItalic.woff2') format('woff2');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Galano Grotesque Alt ExBold It';
+    src: url('assets/fonts/galamo-grotesque-alt/GalanoGrotesqueAlt-ExtraBoldItalic.woff2') format('woff2');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Galano Grotesque Alt';
+    src: url('assets/fonts/galamo-grotesque-alt/GalanoGrotesqueAlt-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Galano Grotesque Alt';
+    src: url('assets/fonts/galamo-grotesque-alt/GalanoGrotesqueAlt-BoldItalic.woff2') format('woff2');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Galano Grotesque Alt Light It';
+    src: url('assets/fonts/galamo-grotesque-alt/GalanoGrotesqueAlt-LightItalic.woff2') format('woff2');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Galano Grotesque Alt';
+    src: url('assets/fonts/galamo-grotesque-alt/GalanoGrotesqueAlt-ExtraLight.woff2') format('woff2');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Galano Grotesque Alt';
+    src: url('assets/fonts/galamo-grotesque-alt/GalanoGrotesqueAlt-Heavy.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Galano Grotesque Alt';
+    src: url('assets/fonts/galamo-grotesque-alt/GalanoGrotesqueAlt-ExtraBold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Galano Grotesque Alt';
+    src: url('assets/fonts/galamo-grotesque-alt/GalanoGrotesqueAlt-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Galano Grotesque Alt';
+    src: url('assets/fonts/galamo-grotesque-alt/GalanoGrotesqueAlt-Thin.woff2') format('woff2');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Galano Grotesque Alt Thin It';
+    src: url('assets/fonts/galamo-grotesque-alt/GalanoGrotesqueAlt-ThinItalic.woff2') format('woff2');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Galano Grotesque Alt SmBold It';
+    src: url('assets/fonts/galamo-grotesque-alt/GalanoGrotesqueAlt-SemiBoldItalic.woff2') format('woff2');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Galano Grotesque';
+    src: url('assets/fonts/galamo-grotesque-alt/GalanoGrotesque-BoldItalic.woff2') format('woff2');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Galano Grotesque';
+    src: url('assets/fonts/galamo-grotesque-alt/GalanoGrotesque-Black.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Galano Grotesque';
+    src: url('assets/fonts/galamo-grotesque-alt/GalanoGrotesque-BlackItalic.woff2') format('woff2');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Galano Grotesque Alt';
+    src: url('assets/fonts/galamo-grotesque-alt/GalanoGrotesqueAlt-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Galano Grotesque';
+    src: url('assets/fonts/galamo-grotesque-alt/GalanoGrotesque-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Galano Grotesque Alt';
+    src: url('assets/fonts/galamo-grotesque-alt/GalanoGrotesqueAlt-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Galano Grotesque Alt Medium It';
+    src: url('assets/fonts/galamo-grotesque-alt/GalanoGrotesqueAlt-MediumItalic.woff2') format('woff2');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Galano Grotesque';
+    src: url('assets/fonts/galamo-grotesque-alt/GalanoGrotesque-ExtraBold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Galano Grotesque';
+    src: url('assets/fonts/galamo-grotesque-alt/GalanoGrotesque-ExtraLight.woff2') format('woff2');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Galano Grotesque';
+    src: url('assets/fonts/galamo-grotesque-alt/GalanoGrotesque-HeavyItalic.woff2') format('woff2');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Galano Grotesque ExBold';
+    src: url('assets/fonts/galamo-grotesque-alt/GalanoGrotesque-ExtraBoldItalic.woff2') format('woff2');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Galano Grotesque';
+    src: url('assets/fonts/galamo-grotesque-alt/GalanoGrotesque-Heavy.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Galano Grotesque ExLight';
+    src: url('assets/fonts/galamo-grotesque-alt/GalanoGrotesque-ExtraLightItalic.woff2') format('woff2');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+*{
+    font-family: "Galano Grotesque Alt";
+}
+
+#root{
+    min-height: 100vh;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none !important;
+}
+.no-scrollbar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none ;  /* Firefox */
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+    width: 8px;               /* width of the entire scrollbar */
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: #C6C6C6;   
+    border-radius: 20px;     /* color of the tracking area */
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #333;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid #C6C6C6;  /* creates padding around scroll thumb */
+  }
